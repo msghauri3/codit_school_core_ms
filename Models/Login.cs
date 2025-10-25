@@ -18,7 +18,7 @@ namespace codit_school_core_ms.Models
         [StringLength(255)]
         public string Password { get; set; }
 
-        [Required]
+   
         [StringLength(100)]
         public string UserRole { get; set; }
 
